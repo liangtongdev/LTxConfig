@@ -11,6 +11,7 @@
 #endif
 
 #import "LTxConfig.h"
+#import "LTxError.h"
 #import "LTxMacroDef.h"
 
 FOUNDATION_EXPORT double LTxConfigVersionNumber;

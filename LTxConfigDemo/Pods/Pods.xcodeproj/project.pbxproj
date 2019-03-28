@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0751A45748C4EA053EACFEB8272CE244 /* LTxConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F424CE31CC13DEA21C02C4237D11812 /* LTxConfig-dummy.m */; };
+		01C20840B0E5CD332C721CA9AABDE064 /* LTxConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 338B4A73CA224F544890949FE1FE30CE /* LTxConfig-dummy.m */; };
 		07BBD74DFFBAFBF1B6DC2B5F0DB7C908 /* Pods-LTxConfigDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B442E7A8F406AC8408F85C3402649C0 /* Pods-LTxConfigDemo-dummy.m */; };
-		0B51FAD8724730938BA33B2D4A540933 /* LTxConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D27E15663AD6AAEDC6C11A68FAA566 /* LTxConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17D618962C2B37DF4AF4404446D9D1A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6A707D69AE8BF8CAE01372BB6938FC1A /* LTxConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D95C27BF8670730F8D8E302F96F60582 /* LTxConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FAC52BE164F4C11EA8D1292B05BBEE /* LTxConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92328CCCC47D64E9CF041D82C4BAE27 /* LTxConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		766DE3C2744E319B026B85BED1CF5104 /* Pods-LTxConfigDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334D7440016699BFE7708DDE3211C5C4 /* Pods-LTxConfigDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9414ED790B9C6D08CEFBA739300AA231 /* LTxMacroDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 726511B7DDEAE17E287FA027AEB667A6 /* LTxMacroDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD5183056F61DC4F4BB38EB5D0E6AAAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CF34E861B26FF9F31A11B2F9509DAC49 /* LTxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8459BC2CEA176C290A53E61C1B3173 /* LTxConfig.m */; };
+		83A3A743B235E5F2F26DFD26852D7398 /* LTxMacroDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 886C0274ECEC251A604F25A99CF654CB /* LTxMacroDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CDAEF469EEB6C698CD20E2016CDB893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A28782A3B2EDF8D3F327E099BB3EC463 /* LTxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C8317EFC3334193A1C4267B9411794 /* LTxConfig.m */; };
+		B206AD5486B243787E612FEA0D8E4EC3 /* LTxError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD2BBA635724E44D10B04126D70B320 /* LTxError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC3F192961100A503E604707A33F8834 /* LTxConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E64FB7B3087A5C74D186AD20B2AC91D6 /* LTxConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F6D5114A32D574CC94B3DCC502A1BD /* LTxError.m in Sources */ = {isa = PBXBuildFile; fileRef = 667CA619DA6A6DA7F1E689A44C6660E3 /* LTxError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,48 +25,42 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2005865DD18919E5EE073D90B764455D;
+			remoteGlobalIDString = 4D638723628C605E2E67A50C518E9842;
 			remoteInfo = LTxConfig;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06D6707C5A05AF8763A4647D48298125 /* Pods-LTxConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTxConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
-		20C3B01BCE89F545403A8F2BE9577660 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		262DD48C85D44DA10F611CAA954CAF7C /* LTxConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LTxConfig-Info.plist"; sourceTree = "<group>"; };
 		334D7440016699BFE7708DDE3211C5C4 /* Pods-LTxConfigDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTxConfigDemo-umbrella.h"; sourceTree = "<group>"; };
-		3877C6F23126E4D9D663CBEF43656BED /* LTxConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LTxConfig.modulemap; sourceTree = "<group>"; };
+		338B4A73CA224F544890949FE1FE30CE /* LTxConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTxConfig-dummy.m"; sourceTree = "<group>"; };
 		388291B1F32642C9B7C0D52035C25970 /* Pods-LTxConfigDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LTxConfigDemo.modulemap"; sourceTree = "<group>"; };
 		3F84EA6FE392D91438BCB384884FA235 /* LTxConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTxConfig.framework; path = LTxConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F424CE31CC13DEA21C02C4237D11812 /* LTxConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTxConfig-dummy.m"; sourceTree = "<group>"; };
+		3F96E90D9F7A489E8D05C4672D471DE5 /* LTxConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LTxConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48FD85F3960BDF31C428D786B51064A0 /* LTxConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTxConfig.xcconfig; sourceTree = "<group>"; };
+		52C8317EFC3334193A1C4267B9411794 /* LTxConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTxConfig.m; path = LTxConfig/LTxConfig.m; sourceTree = "<group>"; };
 		5B8F7D985CD36CC4BD68FCE55B2C8A63 /* Pods-LTxConfigDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTxConfigDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5D7C0EE7DACBDB69040DB78150792110 /* LTxConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LTxConfig-Info.plist"; sourceTree = "<group>"; };
-		5E0D690DB126054D3128517BB159B6BA /* LTxConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LTxConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		667CA619DA6A6DA7F1E689A44C6660E3 /* LTxError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTxError.m; path = LTxConfig/LTxError.m; sourceTree = "<group>"; };
 		6B442E7A8F406AC8408F85C3402649C0 /* Pods-LTxConfigDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTxConfigDemo-dummy.m"; sourceTree = "<group>"; };
 		6BBAE84E8C6ADE156D9C6CA89B3ADEE2 /* Pods-LTxConfigDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTxConfigDemo-frameworks.sh"; sourceTree = "<group>"; };
-		726511B7DDEAE17E287FA027AEB667A6 /* LTxMacroDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxMacroDef.h; path = LTxConfig/LTxMacroDef.h; sourceTree = "<group>"; };
-		7F8DAFC5AAE303545B37F2B619E46F46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		95C7CABC0C9877B0A0534E56600C2C3F /* LTxConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTxConfig.xcconfig; sourceTree = "<group>"; };
-		9C8459BC2CEA176C290A53E61C1B3173 /* LTxConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTxConfig.m; path = LTxConfig/LTxConfig.m; sourceTree = "<group>"; };
+		886C0274ECEC251A604F25A99CF654CB /* LTxMacroDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxMacroDef.h; path = LTxConfig/LTxMacroDef.h; sourceTree = "<group>"; };
+		8DD2BBA635724E44D10B04126D70B320 /* LTxError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxError.h; path = LTxConfig/LTxError.h; sourceTree = "<group>"; };
+		8EC51A64C764C3AF0D713DCC9A56D4B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9ADBC2601830B813A3BE79B0E3AC3CD5 /* LTxConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LTxConfig.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4D27E15663AD6AAEDC6C11A68FAA566 /* LTxConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxConfig.h; path = LTxConfig/LTxConfig.h; sourceTree = "<group>"; };
 		B3747AD6C7933912E30C92DD559A81B0 /* Pods-LTxConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTxConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B49B27E40164806C2247AF809338617F /* Pods-LTxConfigDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTxConfigDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		C3C4A45E7512B95275B4C68529877D77 /* Pods-LTxConfigDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTxConfigDemo-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D148B160DC2E6F0CB803D296DC933607 /* Pods_LTxConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTxConfigDemo.framework; path = "Pods-LTxConfigDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D95C27BF8670730F8D8E302F96F60582 /* LTxConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxConfig-umbrella.h"; sourceTree = "<group>"; };
-		EF638CB6D0046759C7E0C517C5EBD5E5 /* LTxConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxConfig-prefix.pch"; sourceTree = "<group>"; };
+		D92328CCCC47D64E9CF041D82C4BAE27 /* LTxConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxConfig-umbrella.h"; sourceTree = "<group>"; };
+		DC4D3B51BFA6A73FA72FE34F009557A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DEC8FB3EB65D0E6494312EDE793ED57A /* LTxConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxConfig-prefix.pch"; sourceTree = "<group>"; };
+		E64FB7B3087A5C74D186AD20B2AC91D6 /* LTxConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxConfig.h; path = LTxConfig/LTxConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		53A157903628988D1294EADBADD65176 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD5183056F61DC4F4BB38EB5D0E6AAAF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7221B76E65BFF3FAF0AE94CC51D454B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,9 +69,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D136AE281D57E9028BC5B37046D05983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDAEF469EEB6C698CD20E2016CDB893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0752262261BA6F525EE93B9B8CA1AEB7 /* LTxConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C86817034B10ECBB92870A17E43A96DB /* Core */,
+				6DCF776176D45570EFA30EA5FE4E8EC5 /* Pod */,
+				51CC7EEEACE3739564FC601C0AD4D338 /* Support Files */,
+			);
+			name = LTxConfig;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		2FD3EA6879B79011F41F337DBC1D6D0E /* Pods-LTxConfigDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +108,30 @@
 			path = "Target Support Files/Pods-LTxConfigDemo";
 			sourceTree = "<group>";
 		};
+		51CC7EEEACE3739564FC601C0AD4D338 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ADBC2601830B813A3BE79B0E3AC3CD5 /* LTxConfig.modulemap */,
+				48FD85F3960BDF31C428D786B51064A0 /* LTxConfig.xcconfig */,
+				338B4A73CA224F544890949FE1FE30CE /* LTxConfig-dummy.m */,
+				262DD48C85D44DA10F611CAA954CAF7C /* LTxConfig-Info.plist */,
+				DEC8FB3EB65D0E6494312EDE793ED57A /* LTxConfig-prefix.pch */,
+				D92328CCCC47D64E9CF041D82C4BAE27 /* LTxConfig-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "LTxConfigDemo/Pods/Target Support Files/LTxConfig";
+			sourceTree = "<group>";
+		};
+		6DCF776176D45570EFA30EA5FE4E8EC5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8EC51A64C764C3AF0D713DCC9A56D4B3 /* LICENSE */,
+				3F96E90D9F7A489E8D05C4672D471DE5 /* LTxConfig.podspec */,
+				DC4D3B51BFA6A73FA72FE34F009557A7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7901E043D7CC0663D6F8A4FCFF6B3147 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +143,7 @@
 		95BC532D82ED472E6E50A617A4EDD46F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BBC786CB30B45EC36B6A2A719F313707 /* LTxConfig */,
+				0752262261BA6F525EE93B9B8CA1AEB7 /* LTxConfig */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -117,31 +156,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B242C2FBEBAC157D37D99AB6D9653016 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3877C6F23126E4D9D663CBEF43656BED /* LTxConfig.modulemap */,
-				95C7CABC0C9877B0A0534E56600C2C3F /* LTxConfig.xcconfig */,
-				4F424CE31CC13DEA21C02C4237D11812 /* LTxConfig-dummy.m */,
-				5D7C0EE7DACBDB69040DB78150792110 /* LTxConfig-Info.plist */,
-				EF638CB6D0046759C7E0C517C5EBD5E5 /* LTxConfig-prefix.pch */,
-				D95C27BF8670730F8D8E302F96F60582 /* LTxConfig-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "LTxConfigDemo/Pods/Target Support Files/LTxConfig";
-			sourceTree = "<group>";
-		};
-		BBC786CB30B45EC36B6A2A719F313707 /* LTxConfig */ = {
-			isa = PBXGroup;
-			children = (
-				F99DE82DA134F62B6ED71E5B6F7AB7D7 /* Core */,
-				E4D2D57C490E8CD6DDB8ED50DE2E8FFD /* Pod */,
-				B242C2FBEBAC157D37D99AB6D9653016 /* Support Files */,
-			);
-			name = LTxConfig;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BC06485AA4610C6D50997380BC69D668 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +163,18 @@
 				D148B160DC2E6F0CB803D296DC933607 /* Pods_LTxConfigDemo.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C86817034B10ECBB92870A17E43A96DB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E64FB7B3087A5C74D186AD20B2AC91D6 /* LTxConfig.h */,
+				52C8317EFC3334193A1C4267B9411794 /* LTxConfig.m */,
+				8DD2BBA635724E44D10B04126D70B320 /* LTxError.h */,
+				667CA619DA6A6DA7F1E689A44C6660E3 /* LTxError.m */,
+				886C0274ECEC251A604F25A99CF654CB /* LTxMacroDef.h */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -170,39 +196,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E4D2D57C490E8CD6DDB8ED50DE2E8FFD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				20C3B01BCE89F545403A8F2BE9577660 /* LICENSE */,
-				5E0D690DB126054D3128517BB159B6BA /* LTxConfig.podspec */,
-				7F8DAFC5AAE303545B37F2B619E46F46 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F99DE82DA134F62B6ED71E5B6F7AB7D7 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				A4D27E15663AD6AAEDC6C11A68FAA566 /* LTxConfig.h */,
-				9C8459BC2CEA176C290A53E61C1B3173 /* LTxConfig.m */,
-				726511B7DDEAE17E287FA027AEB667A6 /* LTxMacroDef.h */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		193AF81076FC4C156A7734A381EE8BCD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A707D69AE8BF8CAE01372BB6938FC1A /* LTxConfig-umbrella.h in Headers */,
-				0B51FAD8724730938BA33B2D4A540933 /* LTxConfig.h in Headers */,
-				9414ED790B9C6D08CEFBA739300AA231 /* LTxMacroDef.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21F1D8C7BF8E687440A0760C882D0211 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,27 +207,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4300A259B87E7BAAA1F9EC7DBAF8112A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FAC52BE164F4C11EA8D1292B05BBEE /* LTxConfig-umbrella.h in Headers */,
+				DC3F192961100A503E604707A33F8834 /* LTxConfig.h in Headers */,
+				B206AD5486B243787E612FEA0D8E4EC3 /* LTxError.h in Headers */,
+				83A3A743B235E5F2F26DFD26852D7398 /* LTxMacroDef.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2005865DD18919E5EE073D90B764455D /* LTxConfig */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96714A547CE89B9460B62FA0B1F94A90 /* Build configuration list for PBXNativeTarget "LTxConfig" */;
-			buildPhases = (
-				193AF81076FC4C156A7734A381EE8BCD /* Headers */,
-				654EF5880CCDADA57902B10B97DF934B /* Sources */,
-				53A157903628988D1294EADBADD65176 /* Frameworks */,
-				BD56D80C495C216EE8D1231E0B2B8F82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LTxConfig;
-			productName = LTxConfig;
-			productReference = 3F84EA6FE392D91438BCB384884FA235 /* LTxConfig.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4250675470D678F62F4BEE3BE6D202C4 /* Pods-LTxConfigDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C36700FBA2A7CB5F8C779E62A114A8B /* Build configuration list for PBXNativeTarget "Pods-LTxConfigDemo" */;
@@ -249,6 +238,24 @@
 			name = "Pods-LTxConfigDemo";
 			productName = "Pods-LTxConfigDemo";
 			productReference = D148B160DC2E6F0CB803D296DC933607 /* Pods_LTxConfigDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D638723628C605E2E67A50C518E9842 /* LTxConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00819CA9FBC156B5250C53B17DA6AD61 /* Build configuration list for PBXNativeTarget "LTxConfig" */;
+			buildPhases = (
+				4300A259B87E7BAAA1F9EC7DBAF8112A /* Headers */,
+				4BCEA3E9BFF5941A8ACCFBB9093B6173 /* Sources */,
+				D136AE281D57E9028BC5B37046D05983 /* Frameworks */,
+				F12F628309C57E6383C7FC16EE8B025D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTxConfig;
+			productName = LTxConfig;
+			productReference = 3F84EA6FE392D91438BCB384884FA235 /* LTxConfig.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -272,21 +279,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2005865DD18919E5EE073D90B764455D /* LTxConfig */,
+				4D638723628C605E2E67A50C518E9842 /* LTxConfig */,
 				4250675470D678F62F4BEE3BE6D202C4 /* Pods-LTxConfigDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BD56D80C495C216EE8D1231E0B2B8F82 /* Resources */ = {
+		CF5832D4EC74812611614149FA970C79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF5832D4EC74812611614149FA970C79 /* Resources */ = {
+		F12F628309C57E6383C7FC16EE8B025D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,12 +311,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654EF5880CCDADA57902B10B97DF934B /* Sources */ = {
+		4BCEA3E9BFF5941A8ACCFBB9093B6173 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0751A45748C4EA053EACFEB8272CE244 /* LTxConfig-dummy.m in Sources */,
-				CF34E861B26FF9F31A11B2F9509DAC49 /* LTxConfig.m in Sources */,
+				01C20840B0E5CD332C721CA9AABDE064 /* LTxConfig-dummy.m in Sources */,
+				A28782A3B2EDF8D3F327E099BB3EC463 /* LTxConfig.m in Sources */,
+				F0F6D5114A32D574CC94B3DCC502A1BD /* LTxError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +327,7 @@
 		78F9DF91D9F30AE87E78F27CCD69B99A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LTxConfig;
-			target = 2005865DD18919E5EE073D90B764455D /* LTxConfig */;
+			target = 4D638723628C605E2E67A50C518E9842 /* LTxConfig */;
 			targetProxy = 869E9B202875D18218B830FAA23B6EEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,75 +435,6 @@
 			};
 			name = Release;
 		};
-		0F332F1AD9A87D01677EBD4485BDE402 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95C7CABC0C9877B0A0534E56600C2C3F /* LTxConfig.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LTxConfig/LTxConfig-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LTxConfig/LTxConfig-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LTxConfig/LTxConfig.modulemap";
-				PRODUCT_MODULE_NAME = LTxConfig;
-				PRODUCT_NAME = LTxConfig;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		368F4679842BB79FB1E136BC9A97BCAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95C7CABC0C9877B0A0534E56600C2C3F /* LTxConfig.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LTxConfig/LTxConfig-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LTxConfig/LTxConfig-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LTxConfig/LTxConfig.modulemap";
-				PRODUCT_MODULE_NAME = LTxConfig;
-				PRODUCT_NAME = LTxConfig;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5ECC085D2AF98E98C7A665E489B45B86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3747AD6C7933912E30C92DD559A81B0 /* Pods-LTxConfigDemo.debug.xcconfig */;
@@ -527,6 +466,40 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E2CB120298EFBEF796335F84E7D4ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FD85F3960BDF31C428D786B51064A0 /* LTxConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LTxConfig/LTxConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTxConfig/LTxConfig-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LTxConfig/LTxConfig.modulemap";
+				PRODUCT_MODULE_NAME = LTxConfig;
+				PRODUCT_NAME = LTxConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -593,9 +566,53 @@
 			};
 			name = Release;
 		};
+		CEEAB97447CA1AA117E3CF2F1CC7D3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FD85F3960BDF31C428D786B51064A0 /* LTxConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LTxConfig/LTxConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTxConfig/LTxConfig-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LTxConfig/LTxConfig.modulemap";
+				PRODUCT_MODULE_NAME = LTxConfig;
+				PRODUCT_NAME = LTxConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00819CA9FBC156B5250C53B17DA6AD61 /* Build configuration list for PBXNativeTarget "LTxConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2CB120298EFBEF796335F84E7D4ECC /* Debug */,
+				CEEAB97447CA1AA117E3CF2F1CC7D3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1C36700FBA2A7CB5F8C779E62A114A8B /* Build configuration list for PBXNativeTarget "Pods-LTxConfigDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -610,15 +627,6 @@
 			buildConfigurations = (
 				07488D4657FB0A78086563621D425F8A /* Debug */,
 				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96714A547CE89B9460B62FA0B1F94A90 /* Build configuration list for PBXNativeTarget "LTxConfig" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				368F4679842BB79FB1E136BC9A97BCAC /* Debug */,
-				0F332F1AD9A87D01677EBD4485BDE402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

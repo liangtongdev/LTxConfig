@@ -6,7 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LTxMacroDef.h"
+#import "LTxMacroDef.h"//宏定义
+#import "LTxError.h"//错误码
+
 NS_ASSUME_NONNULL_BEGIN
 /**
  * 配置文件
