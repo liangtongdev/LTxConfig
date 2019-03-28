@@ -1,0 +1,18 @@
+PODS:
+  - LTxConfig (0.0.1):
+    - LTxConfig/Core (= 0.0.1)
+  - LTxConfig/Core (0.0.1)
+
+DEPENDENCIES:
+  - LTxConfig (from `../`)
+
+EXTERNAL SOURCES:
+  LTxConfig:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTxConfig: 210c96988124f9debc08fc6be7153903500259e3
+
+PODFILE CHECKSUM: 79c8da12653a6fd18eadadf7c0b95eeea420fde2
+
+COCOAPODS: 1.6.1
