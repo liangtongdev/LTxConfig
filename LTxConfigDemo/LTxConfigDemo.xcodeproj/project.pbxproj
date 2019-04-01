@@ -181,16 +181,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LTxConfigDemo/Pods-LTxConfigDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LTxConfig/LTxConfig.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-LTxConfigDemo/Pods-LTxConfigDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTxConfig.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-LTxConfigDemo/Pods-LTxConfigDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
