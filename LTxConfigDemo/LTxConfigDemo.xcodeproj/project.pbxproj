@@ -14,7 +14,6 @@
 		27414485224CAB2A00DF0555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27414483224CAB2A00DF0555 /* LaunchScreen.storyboard */; };
 		27414488224CAB2A00DF0555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27414487224CAB2A00DF0555 /* main.m */; };
 		27414490224CAC5E00DF0555 /* LTxConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2741448F224CAC5E00DF0555 /* LTxConfig.plist */; };
-		27414496224CB1CB00DF0555 /* LTxError.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27414495224CB1CB00DF0555 /* LTxError.plist */; };
 		3D463E161A3EEB5BC2CF182A /* Pods_LTxConfigDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC8E18ACDEB8FD74D9DA743 /* Pods_LTxConfigDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		27414486224CAB2A00DF0555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27414487224CAB2A00DF0555 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2741448F224CAC5E00DF0555 /* LTxConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LTxConfig.plist; sourceTree = "<group>"; };
-		27414495224CB1CB00DF0555 /* LTxError.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LTxError.plist; sourceTree = "<group>"; };
 		717049CC4B6FB7364D72464D /* Pods-LTxConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTxConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-LTxConfigDemo/Pods-LTxConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9873BFBDF7F53F2B85FE0F4C /* Pods-LTxConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTxConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-LTxConfigDemo/Pods-LTxConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AEC8E18ACDEB8FD74D9DA743 /* Pods_LTxConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTxConfigDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +84,6 @@
 		2741448E224CAC5E00DF0555 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				27414495224CB1CB00DF0555 /* LTxError.plist */,
 				2741448F224CAC5E00DF0555 /* LTxConfig.plist */,
 			);
 			path = Resources;
@@ -172,7 +169,6 @@
 				27414482224CAB2A00DF0555 /* Assets.xcassets in Resources */,
 				27414480224CAB2900DF0555 /* Main.storyboard in Resources */,
 				27414490224CAC5E00DF0555 /* LTxConfig.plist in Resources */,
-				27414496224CB1CB00DF0555 /* LTxError.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

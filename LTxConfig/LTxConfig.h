@@ -39,8 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) BOOL isDebug;
 
 #pragma mark - 签名验证
-@property (nonatomic, readonly) BOOL signature;//是否开启签名验证
-@property (nonatomic, readonly) NSString* signatureToken;//签名验证时的Token
+@property (nonatomic, copy) NSString* signature;//签名验证时的Token
 
 #pragma mark - host
 @property (nonatomic, copy) NSString* host;
@@ -68,6 +67,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) BOOL enableBackgroundDownload;
 //某个时间点上最大的下载个数(大于0)，默认为2
 @property (nonatomic, readonly) NSInteger maxDownloadingCount;
+
+
+#pragma mark - 刷新
+@property (nonatomic, strong) NSArray* refreshHeaderImages;
+@property (nonatomic, strong) NSArray* refreshFooterImages;
+
 @end
 
 NS_ASSUME_NONNULL_END

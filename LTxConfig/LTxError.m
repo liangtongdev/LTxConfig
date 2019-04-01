@@ -79,9 +79,10 @@ static NSArray* static_service_code_array;
     
     static dispatch_once_t onceTokenStaticServiceCodeArray;
     dispatch_once(&onceTokenStaticServiceCodeArray, ^{
-        NSURL* serviceErrorCodeUrl = [[NSBundle mainBundle] URLForResource:@"LTxError" withExtension:@"plist"];
-        if (serviceErrorCodeUrl) {
-            static_service_code_array = [NSArray arrayWithContentsOfURL:serviceErrorCodeUrl];
+        NSURL* configFileURL = [[NSBundle mainBundle] URLForResource:@"LTxConfig" withExtension:@"plist"];
+        if (configFileURL) {
+            NSDictionary* configDic = [NSDictionary dictionaryWithContentsOfURL:configFileURL];
+            static_service_code_array = [configDic objectForKey:@"error"];
         }
         
     });

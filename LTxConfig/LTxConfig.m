@@ -8,8 +8,6 @@
 #import "LTxConfig.h"
 @interface LTxConfig()
 @property (nonatomic, readwrite) BOOL isDebug;
-@property (nonatomic, readwrite) BOOL signature;//是否开启签名验证
-@property (nonatomic, strong, readwrite) NSString* signatureToken;//签名验证时的Token
 
 @property (nonatomic, assign, readwrite) BOOL enableBackgroundDownload;//后台下载
 @property (nonatomic, assign, readwrite) NSInteger maxDownloadingCount;//最大下载数量
@@ -59,8 +57,7 @@ static LTxConfig *_instance;
         _isDebug = [type isEqualToString:@"debug"];
         
         //签名验证
-        _signatureToken = [configDic objectForKey:@"signature"];
-        _signature = _signatureToken != nil;
+        _signature = [configDic objectForKey:@"signature"];
         _appId = [configDic objectForKey:@"appId"];
         _pushId = [configDic objectForKey:@"pushId"];
         _pageSize = [[configDic objectForKey:@"pageSize"] integerValue];
@@ -70,6 +67,7 @@ static LTxConfig *_instance;
         _loginTip = [configDic objectForKey:@"loginTip"];
         _cameraAlbumCustom = [[configDic objectForKey:@"cameraAlbumCustom"] boolValue];
         
+        //下载
         NSDictionary* downloadConfig = [configDic objectForKey:@"download"];
         _enableBackgroundDownload = [[downloadConfig objectForKey:@"backgroundDownload"] boolValue];
         _maxDownloadingCount = [[downloadConfig objectForKey:@"maxDownloadingCount"] integerValue];
@@ -78,6 +76,11 @@ static LTxConfig *_instance;
         NSDictionary* typeDic = [configDic objectForKey:type];
         _instalUrl = [typeDic objectForKey:@"instalUrl"];
         _host = [typeDic objectForKey:@"host"];
+        
+        //刷新
+        NSDictionary* refreshDic = [configDic objectForKey:@"refresh"];
+        _refreshHeaderImages = [refreshDic objectForKey:@"header"];
+        _refreshFooterImages = [refreshDic objectForKey:@"footer"];
         
         //缓存中读取 - 防止由于host获取失败导致无法继续更新的问题
     }else{//默认配置
