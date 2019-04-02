@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LTxConfig"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "基础配置. "
   s.license      = "MIT"
   s.author             = { "liangtong" => "liangtongdev@163.com" }
